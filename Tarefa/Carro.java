@@ -17,10 +17,6 @@ public abstract class Carro {
         System.out.println("O  " + tanqueGas + " está cheio e preparado para utilizar e o " + motor + " horsepowers.n " );
     }
 
-    public void mecanica() {
-        System.out.println("Todas as combinações de segurança e mecânica foram testadas e estão prontas para o uso. Dirija com cuidado! ");
-    }
-
     public void tanque() {
         System.out.println("O " + tanqueGas + " esta cheio e o " + motor + "esta pronto para ser utilizado");
     }
